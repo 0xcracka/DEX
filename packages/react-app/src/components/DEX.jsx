@@ -144,7 +144,7 @@ export default function Dex(props) {
               <Address value={contractAddress} />
               <div style={{ float: "right", fontSize: 24 }}>
                 {parseFloat(ethers.utils.formatEther(contractBalance)).toFixed(4)} ⚖️
-                <TokenBalance name={tokenName} img={"🎈"} address={contractAddress} contracts={props.readContracts} />
+                <TokenBalance name={tokenName} img={"🧨"} address={contractAddress} contracts={props.readContracts} />
               </div>
             </div>
           }

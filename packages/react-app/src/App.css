@@ -1,4 +1,7 @@
 .App {
   text-align: center;
   padding-left: calc(100vw - 100%);
+  background-image: url('firecracker_1f9e8.png');
+  background-size: cover;
+  opacity: 0.7;
 }
